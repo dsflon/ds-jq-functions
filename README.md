@@ -33,9 +33,7 @@ ___
 |SetCss( element, object ) *2|$(element).css(object)|
 |GetParents( element, ".className or #id or tagName" )|$(element).parents(".className")|
 |GetSiblings( element, ".className or #id or tagName" )|$(element).siblings(".className")|
-|GetOffset( element ).top|
-|GetOffset( element ).left|$(element).offset().top|
-|$(element).offset().left|
+|GetOffset( element ).top<br>GetOffset( element ).left|$(element).offset().top<br>$(element).offset().left|
 |GetWidthData( element ).outerWidth|$(element).outerWidth()|
 |GetHeightData( element ).outerHeight|$(element).outerHeight()|
 |Not( element, ".className or #id" ) *3|$(element).not( “.className or #id” )|
