@@ -18,7 +18,7 @@ ___
 # Import
 
 ```
-import { AddClass, RemoveClass, ... } from "./ds-jq-functions"
+import { AddClass, RemoveClass, ... } from "ds-jq-functions"
 ```
 
 ___
