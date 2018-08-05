@@ -4,24 +4,39 @@
 	<meta charset="utf-8">
 
 	<title>ds-jq-functions</title>
+	<meta name="description" content="ds-jq-functions.jsは、addClass、removeClassなどjQueryに近い記述で利用できる関数をまとめたものです。">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<style>
 		body { background: #FFF; margin: 0px; padding: 40px 20px; overflow: hidden; overflow: auto;}
 		h1, h2, h3 { margin: 0; padding: 0; }
 		img { max-width: 100%; height: auto; }
-		section { margin-bottom: 60px; }
-		section > section { margin-bottom: 40px; }
-		section > section:last-child { margin-bottom: 0; }
-		h1 { margin-bottom: 20px; border-bottom: 1px solid #CCC; }
-		h2 { margin-bottom: 20px; font-size: 1em; }
-		h2:before { content: ":: ";  }
+		section { margin-top: 60px; }
+		section > section { margin-top: 40px; }
+		h2 { margin-bottom: 20px; border-bottom: 1px solid #CCC; }
+		h3 { margin-bottom: 20px; font-size: 1em; }
+		h3:before { content: ":: ";  }
 	</style>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-53498815-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 
 </head>
 <body>
 
+	<h1>ds-jq-functions</h1>
+	<p>addClass、removeClassなどjQueryに近い記述で利用できる関数をまとめています。</p>
+	<p><a href="https://github.com/dsflon/ds-jq-functions">https://github.com/dsflon/ds-jq-functions</a></p>
+
 	<section>
-		<h1>AddClass</h1>
+		<h2>AddClass</h2>
 		<p id="example">AddClass 1</p>
 		<p class="example">AddClass 2</p>
 		<p class="example">AddClass 2</p>
@@ -29,12 +44,12 @@
 	</section>
 
 	<section>
-		<h1>SetCss</h1>
+		<h2>SetCss</h2>
 		<p id="example2">AddClass 1</p>
 	</section>
 
 	<section>
-		<h1>Not</h1>
+		<h2>Not</h2>
 		<p><a href="#" class="example3">example</a></a>
 		<p><a href="#" class="example3 ignore">ignored element</a></a>
 	</section>
