@@ -46,7 +46,7 @@ ___
 [https://dsflon.github.io/ds-jq-functions/](https://dsflon.github.io/ds-jq-functions/)
 
 ```
-import { AddClass, SetCss, Not } from "./ds-jq-functions"
+import { AddClass, SetCss, Not } from "ds-jq-functions"
 
 /**
  * AddClass
