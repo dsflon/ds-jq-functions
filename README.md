@@ -10,7 +10,7 @@ ___
 # Install
 
 ```
-npm i ds-jq-functions -D
+npm i ds-jq-functions -S
 ```
 
 ___
