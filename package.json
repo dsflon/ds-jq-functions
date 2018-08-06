@@ -1,6 +1,6 @@
 {
   "name": "ds-jq-functions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./src/ds-jq-functions.js",
   "scripts": {
@@ -8,7 +8,12 @@
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development"
   },
-  "keywords": ["js","library","ECMA script","not jQuery"],
+  "keywords": [
+    "js",
+    "library",
+    "ECMA script",
+    "not jQuery"
+  ],
   "author": "Daiki Saito (https://github.com/dsflon)",
   "license": "MIT",
   "devDependencies": {
