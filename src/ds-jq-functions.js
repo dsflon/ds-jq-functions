@@ -2,7 +2,6 @@
 
 ds-jq-functions
 
-Version: 1.0.0
 GitHub: https://github.com/dsflon/
 License: dsflon All Rights Reserved.
 
