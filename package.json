@@ -8,9 +8,9 @@
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["js","library","ECMA script","not jQuery"],
+  "author": "Daiki Saito (https://github.com/dsflon)",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
