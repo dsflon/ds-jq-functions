@@ -1,5 +1,4 @@
 import { AddClass, SetCss, Not } from "./ds-jq-functions"
-
 /**
  * AddClass
  */
